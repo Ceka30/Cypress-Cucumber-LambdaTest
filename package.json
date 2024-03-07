@@ -1,0 +1,24 @@
+{
+  "name": "cypress_lambdatest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CEKA",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.6"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@shelex/cypress-allure-plugin": "^2.40.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-plugin-tab": "^1.0.5",
+    "cypress-xpath": "^2.0.1",
+    "esbuild": "^0.20.1",
+    "multiple-cucumber-html-reporter": "^3.6.2"
+  }
+}

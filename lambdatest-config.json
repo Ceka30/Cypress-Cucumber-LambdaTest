@@ -1,0 +1,39 @@
+{
+   "lambdatest_auth": {
+      "username": "gomezceka",
+      "access_key": "SvL1afiFtWj3YKmy191LfxOMlReiJemuutFpOaQj0uXgIdEqOm"
+   },
+   "browsers": [
+      {
+         "browser": "Chrome",
+         "platform": "Windows 10",
+         "versions": [
+            "122.0"
+         ]
+      }
+   ],
+   "run_settings": {
+      "reporter_config_file": "base_reporter_config.json",
+      "build_name": "Integracion_LambdaTest",
+      "parallels": 1,
+      "specs": "cypress/e2e/features/*.feature",
+      "ignore_files": "",
+      "network": false,
+      "headless": false,
+      "npm_dependencies": {
+         "cypress": "^13.6.6",
+         "@badeball/cypress-cucumber-preprocessor": "^20.0.2",
+         "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+         "@shelex/cypress-allure-plugin": "^2.40.1",
+         "cypress-file-upload": "^5.0.8",
+         "cypress-plugin-tab": "^1.0.5",
+         "cypress-xpath": "^2.0.1",
+         "esbuild": "^0.20.1",
+         "multiple-cucumber-html-reporter": "^3.6.2"
+      }
+   },
+   "tunnel_settings": {
+      "tunnel": false,
+      "tunnel_name": null
+   }
+}
